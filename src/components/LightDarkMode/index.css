@@ -1,0 +1,36 @@
+.app-container {
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mode-container {
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 25px;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.button {
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
